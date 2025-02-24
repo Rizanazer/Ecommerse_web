@@ -86,7 +86,7 @@ const FilterMenu = () => {
               Supplements
             </div>
             <button
-              className="max-h-[50px] px-4 py-2 bg-black text-white rounded-lg mb-3"
+              className="max-h-[50px] px-4 py-2 bg-black text-white rounded-lg mb-3 cursor-pointer"
               onClick={() => {
                 console.log("LENG");
               }}
@@ -143,7 +143,7 @@ const FilterMenu = () => {
           <div className="flex flex-col m-5 w-full">
             <div className="flex container w-full justify-between items-center">
               <h2 className="text-xl font-semibold">REVIEWS</h2>
-              <p>RATE</p>
+              <p className="text-gray-400 cursor-pointer">RATE</p>
             </div>
             <hr className="w-full text-gray-300 mt-5" />
             <div className="flex flex-col container w-full  items-center p-5">
@@ -240,7 +240,7 @@ const FilterMenu = () => {
       Supplements
     </div>
     <button
-      className="max-h-[50px] px-4 py-2 bg-black text-white rounded-lg"
+      className="max-h-[50px] px-4 py-2 bg-black text-white rounded-lg cursor-pointer"
       onClick={() => {
         console.log("LENG");
       }}
@@ -255,7 +255,7 @@ const FilterMenu = () => {
         <div className="flex flex-col m-5 w-full justify-center items-center">
           <div className="flex container w-full justify-between items-center">
             <h2 className="text-xl font-semibold">REVIEWS</h2>
-            <p>RATE</p>
+            <p className="text-gray-400 cursor-pointer">RATE</p>
           </div>
           <hr className="w-full text-gray-300 mt-5" />
           <div className="flex flex-col container w-full  items-center p-5">
@@ -315,7 +315,7 @@ const FilterMenu = () => {
         <div className="flex flex-col m-5 w-full">
           <div className="flex container w-full justify-between items-center">
             <h2 className="text-xl font-semibold">REVIEWS</h2>
-            <p>RATE</p>
+            <p className="text-gray-400 cursor-pointer">RATE</p>
           </div>
           <hr className="w-full text-gray-300  mt-5" />
           <div className="flex flex-col container w-full  items-center p-5">
