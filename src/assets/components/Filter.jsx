@@ -1,5 +1,5 @@
 import React from "react";
-import pdtIMG from "../images/pdtIMG.png";
+import pdt1 from "../images/pdt1.png";
 import cusIMG from "../images/herol1.jpeg";
 import { Fa500Px } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
@@ -45,7 +45,7 @@ const FilterMenu = () => {
         </div>
         <hr className="text-gray-400" />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 mx-15 ">
+      <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 mx-15 ">
         <div className="md:col-span-1 hidden justify-between md:flex md:flex-col">
           <div>
             <h2 className="text-xl font-semibold my-5">CATEGORIES</h2>
@@ -122,7 +122,7 @@ const FilterMenu = () => {
                 <MdFavoriteBorder />
               </button>
 
-              <img src={pdtIMG} alt="" class=" w-full aspect-square" />
+              <img src={pdt1} alt="" class=" w-full aspect-square" />
 
               <div class="relative border border-gray-100 bg-white p-3 m-2 rounded-xl">
                 <h3 className="text-lg text-gray-900 font-semibold truncate">
@@ -200,55 +200,56 @@ const FilterMenu = () => {
         </div>
       </div>
 
-      <div className=" flex justify-evenly lg:hidden md:hidden">
-        <div className="">
-          <h2 className="text-xl font-semibold my-5">CATAGORIES</h2>
-          <div className="flex items-center my-3 gap-3 text-lg">
-            <Fa500Px color="#8898aa" />
-            Lorem
-          </div>
-          <div className="flex items-center my-3 gap-3 text-lg">
-            <Fa500Px color="#8898aa" />
-            Lorem
-          </div>
-          <div className="flex items-center my-3 gap-3 text-lg">
-            <Fa500Px color="#8898aa" />
-            Lorem
-          </div>
-          <div className="flex items-center my-3 gap-3 text-lg">
-            <Fa500Px color="#8898aa" />
-            Lorem
-          </div>
-          <div className="flex items-center my-3 gap-3 text-lg">
-            <Fa500Px color="#8898aa" />
-            Lorem
-          </div>
-        </div>
+      <div className="flex justify-evenly lg:hidden md:hidden">
+  <div>
+    <h2 className="text-xl font-semibold my-5">CATEGORIES</h2>
+    <div className="flex items-center my-3 gap-3 text-lg">
+      <FaPumpSoap color="#8898aa" />
+      Skincare
+    </div>
+    <div className="flex items-center my-3 gap-3 text-lg">
+      <FaPaintBrush color="#8898aa" />
+      Makeup
+    </div>
+    <div className="flex items-center my-3 gap-3 text-lg">
+      <FaBroom color="#8898aa" />
+      Haircare
+    </div>
+    <div className="flex items-center my-3 gap-3 text-lg">
+      <FaSprayCan color="#8898aa" />
+      Fragrances
+    </div>
+    <div className="flex items-center my-3 gap-3 text-lg">
+      <FaHandHoldingWater color="#8898aa" />
+      Body Care
+    </div>
+  </div>
 
-        <div>
-          <h2 className="text-xl font-semibold my-5">OTHERS</h2>
-          <div className="flex items-center my-3 gap-3 text-lg">
-            <Fa500Px color="#8898aa" />
-            Lorem
-          </div>
-          <div className="flex items-center my-3 gap-3 text-lg">
-            <Fa500Px color="#8898aa" />
-            Lorem
-          </div>
-          <div className="flex items-center my-3 gap-3 text-lg">
-            <Fa500Px color="#8898aa" />
-            Lorem
-          </div>
-          <button
-            className="max-h-[50px] px-4 py-2 bg-black text-white rounded-lg"
-            onClick={() => {
-              console.log("LENG");
-            }}
-          >
-            LENG
-          </button>
-        </div>
-      </div>
+  <div>
+    <h2 className="text-xl font-semibold my-5">OTHERS</h2>
+    <div className="flex items-center my-3 gap-3 text-lg">
+      <FaTools color="#8898aa" />
+      Beauty Tools
+    </div>
+    <div className="flex items-center my-3 gap-3 text-lg">
+      <FaMale color="#8898aa" />
+      Men's Grooming
+    </div>
+    <div className="flex items-center my-3 gap-3 text-lg">
+      <FaCapsules color="#8898aa" />
+      Supplements
+    </div>
+    <button
+      className="max-h-[50px] px-4 py-2 bg-black text-white rounded-lg"
+      onClick={() => {
+        console.log("LENG");
+      }}
+    >
+      LENG
+    </button>
+  </div>
+</div>
+
 
       <div className="md:col-span-1 hidden md:flex md:flex-row w-full justify-evenly lg:hidden mt-5">
         <div className="flex flex-col m-5 w-full justify-center items-center">

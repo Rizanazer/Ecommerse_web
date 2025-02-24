@@ -10,9 +10,9 @@ const HeroContent = () => {
     <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-7 mx-5">
       <div className="bg-gray-100 md:col-span-2 min-h-[20px] p-7  rounded-xl w-full lg:grid lg:grid-cols-2">
         <div className="lg:flex lg:flex-col lg:gap-8 space-y-10 lg:space-y-3">
-          <h2 className="text-4xl font-semibold lg:text-7xl md:mt-5 lg:mt-0">
-            Health care & <br />
-            Cleaning product
+          <h2 className="text-4xl font-semibold lg:text-6xl md:mt-5 lg:mt-0">
+            Health Care & <br />
+            Cleaning Product
           </h2>
           <p className="text-gray-500 text-xl break-words max-w-md">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
